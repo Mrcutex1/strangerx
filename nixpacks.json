@@ -1,0 +1,12 @@
+{
+  "buildPacks": [
+    {
+      "name": "python",
+      "version": "3.10"
+    },
+    {
+      "name": "nodejs",
+      "version": "21"
+    }
+  ]
+}
