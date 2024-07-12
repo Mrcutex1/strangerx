@@ -9,7 +9,7 @@ from ..logging import LOGGER
 TEMP_MONGODB = "mongodb+srv://shikhar:shikhar@cluster0.6xzlh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 temp_client = Client(
-        "Stranger",
+        "Ace",
         bot_token=config.BOT_TOKEN,
         api_id=config.API_ID,
         api_hash=config.API_HASH,
