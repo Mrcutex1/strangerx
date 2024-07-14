@@ -225,7 +225,7 @@ START_IMG_URL = "https://graph.org/file/903d3b47ee22991c7f777.jpg"
 
 PING_IMG_URL = "https://telegra.ph/file/d7ede14f8a4e56fdc424d.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/6267bdf12362e80f1811b.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/cf4a32e1860700ba2f3c3.jpg"
 
 GLOBAL_IMG_URL = "https://graph.org/file/451add95a90955a01b6b0.jpg"
 
