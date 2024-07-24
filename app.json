@@ -15,7 +15,6 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-	@@ -23,33 +22,23 @@
         "value": "",
         "required": true
       },
@@ -49,7 +48,6 @@
         "value": "",
         "required": true
       },
-	@@ -59,24 +48,14 @@
         "required": false
       },
       "HEROKU_APP_NAME": {
@@ -74,14 +72,13 @@
       }
     },
     "buildpacks": [
-	@@ -90,10 +69,5 @@
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
       "formation": {
           "worker": {
               "quantity": 1,
-              "size": "eco"
+              "size": "container"
           }
       }
           }
