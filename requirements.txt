@@ -40,8 +40,8 @@ spotipy
 tgcrypto==1.2.5
 telegraph
 unidecode
-#yt-dlp
-git+https://github.com/hostdam/yt-dlp.git
+yt-dlp
+#git+https://github.com/hostdam/yt-dlp.git
 youtube-search==2.1.2
 youtube-search-python==1.6.6
 gtts
@@ -54,6 +54,7 @@ pickledb
 python-telegram-bot==20.7
 img2pdf
 cloudscraper
+lyricsgenius
 pycryptodome
 opencv-python
 SafoneAPI
