@@ -17,7 +17,7 @@ temp_client = Client(
 temp_client.start()
 info = temp_client.get_me()
 username = info.username
-database="Stranger__" + username
+database="Ace__" + username
 temp_client.stop()
 
 if config.MONGO_DB_URI is None:
