@@ -1,19 +1,12 @@
-
-
 from pyrogram import filters
 
-import config
-from strings import get_command
 from StrangerMusic import app
 from StrangerMusic.misc import SUDOERS
 from StrangerMusic.utils.database import add_off, add_on
 from StrangerMusic.utils.decorators.language import language
 
-# Commands
-LOGGER_COMMAND = get_command("LOGGER_COMMAND")
 
-
-@app.on_message(filters.command(LOGGER_COMMAND) & SUDOERS)
+@app.on_message(filters.command(["logger"]) & SUDOERS)
 @language
 async def logger(client, message, _):
     usage = _["log_1"]
