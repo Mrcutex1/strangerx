@@ -163,10 +163,10 @@ autoclean = []
 # Images
 START_IMG_URL = "https://graph.org/file/903d3b47ee22991c7f777.jpg"
 
- PING_IMG_URL = getenv(
-     "PING_IMG_URL",
-     "assets/Ping.jpeg",
- )
+# PING_IMG_URL = getenv(
+ #    "PING_IMG_URL",
+  #   "assets/Ping.jpeg",
+ #)
 
  #PLAYLIST_IMG_URL = getenv(
  #   "PLAYLIST_IMG_URL",
@@ -203,10 +203,10 @@ START_IMG_URL = "https://graph.org/file/903d3b47ee22991c7f777.jpg"
 #     "assets/Soundcloud.jpeg",
 # )
 
- YOUTUBE_IMG_URL = getenv(
-     "YOUTUBE_IMG_URL",
-     "assets/Youtube.jpeg",
- )
+# YOUTUBE_IMG_URL = getenv(
+   #  "YOUTUBE_IMG_URL",
+   #  "assets/Youtube.jpeg",
+ #)
 
 # SPOTIFY_ARTIST_IMG_URL = getenv(
 #     "SPOTIFY_ARTIST_IMG_URL",
