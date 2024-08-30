@@ -65,7 +65,7 @@ SUPPORT_GROUP = getenv(
 )  # Example:- https://t.me/strangersupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", True)
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -100,7 +100,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565ae
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b58200860623ef19")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "4"))
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
@@ -110,7 +110,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "90")
+    getenv("CLEANMODE_MINS", "999999")
 )  # Remember to give value in Seconds
 
 
@@ -163,15 +163,15 @@ autoclean = []
 # Images
 START_IMG_URL = "https://graph.org/file/903d3b47ee22991c7f777.jpg"
 
-# PING_IMG_URL = getenv(
-#     "PING_IMG_URL",
-#     "assets/Ping.jpeg",
-# )
+ PING_IMG_URL = getenv(
+     "PING_IMG_URL",
+     "assets/Ping.jpeg",
+ )
 
-# PLAYLIST_IMG_URL = getenv(
-#     "PLAYLIST_IMG_URL",
-#     "assets/Playlist.jpeg",
-# )
+ #PLAYLIST_IMG_URL = getenv(
+ #   "PLAYLIST_IMG_URL",
+ #    "assets/Playlist.jpeg",
+ # )
 
 # GLOBAL_IMG_URL = getenv(
 #     "GLOBAL_IMG_URL",
@@ -203,10 +203,10 @@ START_IMG_URL = "https://graph.org/file/903d3b47ee22991c7f777.jpg"
 #     "assets/Soundcloud.jpeg",
 # )
 
-# YOUTUBE_IMG_URL = getenv(
-#     "YOUTUBE_IMG_URL",
-#     "assets/Youtube.jpeg",
-# )
+ YOUTUBE_IMG_URL = getenv(
+     "YOUTUBE_IMG_URL",
+     "assets/Youtube.jpeg",
+ )
 
 # SPOTIFY_ARTIST_IMG_URL = getenv(
 #     "SPOTIFY_ARTIST_IMG_URL",
