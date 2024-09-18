@@ -34,17 +34,7 @@
 
 Checkout [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
 
-Deploy on Docker
 
-Clone repo and install docker and build image and run docker.
-cd && git clone https://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@github.com/Mrcutex1/strangerx && cd strangerx && chmod 777 * && bash docker.sh 
-If docker is already installed you can clone repo and build with a tag and run with below code make sure you are in cloned repo folder.
-
-docker build -t strangerx . &&  docker run -d --restart=unless-stopped --name Alexa_Music_bot strangerx
-IF Bot is already deployed on server
-To restart or redoply bot thay you have already edited/created.
-
-docker container rm strangerx -f && docker image rm strangerx && cd && rm -R strangerx && git clone https://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@github.com/Mrcutex1/strangerx && cd strangerx docker build -t strangerx . &&  docker run -d --restart=unless-stopped --name Alexa_Music_bot strangerx
 
 # 🏷 Support / Assistance
 
